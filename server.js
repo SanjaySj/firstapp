@@ -10,7 +10,7 @@ const PORT = 8080;
 const app = express();
 
 app.get('/', function (req, res) {
-  res.send('Type /name/yourtext \n');
+  res.send('Hello - Type /name/yourtext in the URL \n');
 });
 
 app.get('/name/:text', function (req, res) {
